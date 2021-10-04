@@ -1,5 +1,42 @@
 # Getting Started with Create React App
 
+# This is About project
+
+#1. use react router for projet.
+
+#2. use font awesome also.
+
+#3. this site is a demo site of an course academy. 
+
+#4. there are 4 route section.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
