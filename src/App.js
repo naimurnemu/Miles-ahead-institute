@@ -31,7 +31,7 @@ const App = () => {
                     <Route exact path="/reviews">
                         <Reviews></Reviews>
                     </Route>
-                    <Route exact path="*">
+                    <Route path="*">
                         <NotFound></NotFound>
                     </Route>
                 </Switch>

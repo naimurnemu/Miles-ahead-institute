@@ -1,0 +1,20 @@
+[
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQA00ENpd63vn4QTAmdF-XhDO98YFjINaPVg&usqp=CAU",
+        "name": "Caren Leo",
+        "job": "CEO",
+        "expert": "Management"
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuGQb_uNosD03jI7hv58s_N8IwYxesCw_8gA&usqp=CAU",
+        "name": "Olivia Ava",
+        "job": "Suport instractior",
+        "expert": "Student support"
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbKAhSwRQ1EL5gw9NOEbSGuE1DAzeXDI_O-A&usqp=CAU",
+        "name": "Robert Busli",
+        "job": "Head Teacher",
+        "expert": "CSE & Science"
+    }
+]

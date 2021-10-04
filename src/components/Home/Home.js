@@ -16,6 +16,9 @@ const Home = () => {
 
                 
             </div>
+            <div className="pt-4 mt-2 container">
+              <h2 className="bg-dark text-light p-2 rounded">Explore <span className="text-warning">Miles Ahead</span></h2>
+            </div>
             <div className="container">
                  <HomeCards courses={courses}></HomeCards>
             </div>
