@@ -20,21 +20,19 @@ const App = () => {
                         <Home></Home>
                     </Route>
                     <Route exact path="/home">
-                      <Home></Home>
+                        <Home></Home>
                     </Route>
                     <Route exact path="/courses">
-                      <Courses>
-
-                      </Courses>
+                        <Courses></Courses>
                     </Route>
                     <Route exact path="/about">
-                      <About></About>
+                        <About></About>
                     </Route>
                     <Route exact path="/reviews">
-                      <Reviews></Reviews>
+                        <Reviews></Reviews>
                     </Route>
                     <Route exact path="*">
-                      <NotFound></NotFound>
+                        <NotFound></NotFound>
                     </Route>
                 </Switch>
                 <Footer></Footer>

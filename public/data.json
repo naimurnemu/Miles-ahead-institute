@@ -1,5 +1,6 @@
 [
-    {
+    {   
+        "id": 1, 
         "title": "7 Scientifically Proven Steps to Increase Your Influence",
         "description": "Learn the science of charisma. Increase your impact, influence and income using 7 science based steps.",
         "img": "https://img-c.udemycdn.com/course/240x135/192004_bf26_5.jpg",
@@ -9,7 +10,8 @@
         "rate": 4.5,
         "language": "English"
     },
-    {
+    {   
+        "id": 2,
         "title": "2021 Complete Python Bootcamp From Zero to Hero in Python",
         "description": "Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games",
         "img": "https://img-c.udemycdn.com/course/240x135/567828_67d0.jpg",
@@ -19,57 +21,8 @@
         "rate": 4.2,
         "language": "English"
     },
-    {
-        "title": "Java Programming Masterclass covering Java 11 & Java 17",
-        "description": "Learn Java In This Course And Become a Computer Programmer. Obtain valuable Core Java Skills And Java Certification",
-        "img": "https://img-c.udemycdn.com/course/240x135/533682_c10c_4.jpg",
-        "creator": "Tim Buchalka",
-        "price": 47,
-        "about": { "video": 59, "article": 3, "task": 33 },
-        "rate": 3.8,
-        "language": "English"
-    },
-    {
-        "title": "Angular - The Complete Guide (2021 Edition)",
-        "description": "Master Angular 12 (formerly Angular-2) and build awesome, reactive web apps with the successor of Angular.js",
-        "img": "https://img-c.udemycdn.com/course/240x135/756150_c033_2.jpg",
-        "creator": "Maximilian Schwarzmu",
-        "price": 23.55,
-        "about": { "video": 34, "article": 41, "task": 22 },
-        "rate": 3.9,
-        "language": "English"
-    },
-    {
-        "title": "The Complete JavaScript Course 2021: From Zero to Expert!",
-        "description": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
-        "img": "https://img-c.udemycdn.com/course/240x135/851712_fc61_6.jpg",
-        "creator": "Jonas Schmedtmann",
-        "price": 38.42,
-        "about": { "video": 68, "article": 20, "task": 18 },
-        "rate": 4.2,
-        "language": "English"
-    },
-    {
-        "title": "The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert",
-        "description": "Become an In-demand SQL Master by creating complex databases and building reports through real-world projects",
-        "img": "https://img-c.udemycdn.com/course/240x135/1187016_51b3.jpg",
-        "creator": "Colt steele",
-        "price": 44.05,
-        "about": { "video": 20, "article": 142, "task": 16 },
-        "rate": 4,
-        "language": "English"
-    },
-    {
-        "title": "English for Beginners: Intensive Spoken English Course",
-        "description": "English speaking course. 77 Hours of English language speaking, English listening practice. 1000 English language words",
-        "img": "https://img-c.udemycdn.com/course/240x135/1526882_ea81_43.jpg",
-        "creator": "Logus Online",
-        "price": 18.9,
-        "about": { "video": 77, "article": 4, "task": 8 },
-        "rate": 3.7,
-        "language": "English"
-    },
-    {
+    {   
+        "id": 3,
         "title": "Advanced American English Pronunciation | Complete Mastery",
         "description": "Master English pronunciation like a native, including difficult English sounds, flow, rules, and more. All by example!",
         "img": "https://img-c.udemycdn.com/course/240x135/4232248_fe29_2.jpg",
@@ -79,7 +32,64 @@
         "rate": 4.3,
         "language": "English"
     },
-    {
+    {   
+        "id": 4,
+        "title": "Java Programming Masterclass covering Java 11 & Java 17",
+        "description": "Learn Java In This Course And Become a Computer Programmer. Obtain valuable Core Java Skills And Java Certification",
+        "img": "https://img-c.udemycdn.com/course/240x135/533682_c10c_4.jpg",
+        "creator": "Tim Buchalka",
+        "price": 47,
+        "about": { "video": 59, "article": 3, "task": 33 },
+        "rate": 4.8,
+        "language": "English"
+    },
+    {   
+        "id": 5,
+        "title": "Angular - The Complete Guide (2021 Edition)",
+        "description": "Master Angular 12 (formerly Angular-2) and build awesome, reactive web apps with the successor of Angular.js",
+        "img": "https://img-c.udemycdn.com/course/240x135/756150_c033_2.jpg",
+        "creator": "Maximilian Schwarzmu",
+        "price": 23.55,
+        "about": { "video": 34, "article": 41, "task": 22 },
+        "rate": 3.9,
+        "language": "English"
+    },
+    {   
+        "id": 6,
+        "title": "The Complete JavaScript Course 2021: From Zero to Expert!",
+        "description": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
+        "img": "https://img-c.udemycdn.com/course/240x135/851712_fc61_6.jpg",
+        "creator": "Jonas Schmedtmann",
+        "price": 38.42,
+        "about": { "video": 68, "article": 20, "task": 18 },
+        "rate": 4.2,
+        "language": "English"
+    },
+    {   
+        "id": 7,
+        "title": "The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert",
+        "description": "Become an In-demand SQL Master by creating complex databases and building reports through real-world projects",
+        "img": "https://img-c.udemycdn.com/course/240x135/1187016_51b3.jpg",
+        "creator": "Colt steele",
+        "price": 44.05,
+        "about": { "video": 20, "article": 142, "task": 16 },
+        "rate": 4,
+        "language": "English"
+    },
+    {   
+        "id": 8,
+        "title": "English for Beginners: Intensive Spoken English Course",
+        "description": "English speaking course. 77 Hours of English language speaking, English listening practice. 1000 English language words",
+        "img": "https://img-c.udemycdn.com/course/240x135/1526882_ea81_43.jpg",
+        "creator": "Logus Online",
+        "price": 18.9,
+        "about": { "video": 77, "article": 4, "task": 8 },
+        "rate": 3.7,
+        "language": "English"
+    },
+    
+    {   
+        "id": 9,
         "title": "SOC Analyst (Cybersecurity) Interview Questions and Answers",
         "description": "Clear your next SOC interview with ease with these 400+ interview question asked during most SOC Analyst Interview",
         "img": "https://img-c.udemycdn.com/course/240x135/2924404_e637_5.jpg",
