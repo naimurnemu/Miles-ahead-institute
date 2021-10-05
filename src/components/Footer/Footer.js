@@ -1,7 +1,7 @@
 import React from "react";
-
 import "./Footer.css";
 
+// footer component is design by row css and bootstrap
 const Footer = () => {
     return (
         <div className="footer">

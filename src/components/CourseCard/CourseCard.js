@@ -2,10 +2,11 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
+// single dynamic course card 
 const CourseCard = (props) => {
     console.log(props.course);
-    const { title, description, img, price, about, rate } = props.course;
-    const { video, article, task } = about;
+    const { title, description, img, price, about, rate } = props.course || {};
+    const { video, article, task } = about || {};
     return (
         <>
             <div className="col">

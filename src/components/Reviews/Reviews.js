@@ -1,36 +1,51 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import ReviewCard from "../ReviewCard/ReviewCard";
 
+// there is overviews and feed backs of student.
 const Reviews = () => {
+    const [students, setStudents] = useState([]);
+    useEffect(() => {
+        fetch("./student.JSON")
+            .then((res) => res.json())
+            .then((data) => setStudents(data));
+    }, []);
     return (
         <>
             <div className="mt-5 py-3">
                 <h3 className="text-warning bg-dark p-2">
                     Overview of H S Ahead Academy
                 </h3>
-                <div class="card container mb-3">
-                    <p class="card-text text-start">
+                <div className="card container mb-3">
+                    <p className="card-text text-start p-2">
                         We believe that our students require and deserve an
                         exceptional and innovative academic program that: <br />
                         (1) better engages young minds in deeper learning for a
                         complex world, <br />
                         (2) meets the unique needs of diverse learners, and{" "}
                         <br />
-                        (3) ensures high grade level achievement. MACS empowers
-                        students with academic knowledge and skills, addresses
-                        individual academic needs, prepares students to produce
-                        high-quality work, and motivates and engages them
-                        through service learning.
+                        (3) ensures high grade level achievement. <br /> MAA
+                        empowers students with academic knowledge and skills,
+                        addresses individual academic needs, prepares students
+                        to produce high-quality work, and motivates and engages
+                        them through service learning.
                     </p>
+                </div>
+            </div>
+            <div>
+                <h4 className="text-danger p-2"> Student's Feedback</h4>
+                <div className="card m-3 p-3">
+                    <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 pb-4">
+                        {students.map((student) => (
+                            <ReviewCard student={student}></ReviewCard>
+                        ))}
+                    </div>
                 </div>
             </div>
 
             <div>
-                <h4 className="text-danger p-2">
-                    {" "}
-                    Our Student also Says
-                </h4>
-                <div class="card container mb-3">
-                    <p class="card-text text-start">
+                <h4 className="text-danger p-2"> Our Student also Says</h4>
+                <div className="card container mb-3">
+                    <p className="card-text text-start">
                         Education is an essential part of our lives. We are
                         nothing without knowledge, and education is what
                         separates us from others. The main step to acquire

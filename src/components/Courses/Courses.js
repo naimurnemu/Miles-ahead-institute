@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import CourseCards from '../CourseCards/CourseCards';
 
+// secotion container component of course section
 const Courses = () => {
     const [coursesData, setCoursesData] = useState([])
     useEffect(()=>{

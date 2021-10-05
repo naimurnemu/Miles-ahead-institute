@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Heading from "../Heading/Heading";
 import HomeCards from "../HomeCards/HomeCards";
 
+// home is primary component of the page 
 const Home = () => {
     const [courses, setCourses] = useState([])
   useEffect(()=>{

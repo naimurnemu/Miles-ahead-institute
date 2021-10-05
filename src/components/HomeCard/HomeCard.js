@@ -2,8 +2,9 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
+// this component for single dynamic home card
 const HomeCard = (props) => {
-    const { title, price, creator, img, rate } = props.course;
+    const { title, price, creator, img, rate } = props.course || {};
 
     return (
         <div className="col">

@@ -1,6 +1,7 @@
 import React from "react";
 import "./NotFound.css";
 
+// show this component when route doesn't match
 const NotFound = () => {
     return (
         <div className="not-found">

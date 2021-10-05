@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import AboutCard from "../AboutCard/AboutCard";
 
+
+// this component is for about section
 const About = () => {
     const [leaders, setLeaders] = useState([]);
     useEffect(() => {
@@ -34,6 +36,7 @@ const About = () => {
                 </div>
             </div>
             <h2 className="bg-light text-primary">Our Leader Ship</h2>
+            {/* call Dynamic about card */}
             <div className="container">
                 {leaders.map((leader) => (
                     <AboutCard leader={leader}></AboutCard>
